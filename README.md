@@ -25,9 +25,12 @@ pip3 install requests-html
 ```
 
 
-4. Navigate to the /scripts directory and double click the runscrape.bat file to activate the web scraper
+3. Navigate to the /scripts directory and double click the runscrape.bat file to activate the web scraper
 
 ![image](https://user-images.githubusercontent.com/98235574/158307811-b5c3d9c4-525f-4400-a818-46a21df1239b.png)
 Script running in action
 
 All data is saved in the /data directory; example data can be found there.
+
+![image](https://user-images.githubusercontent.com/98235574/158309783-2bc3b111-b9a1-4636-97d6-f29b3ebb550d.png)
+

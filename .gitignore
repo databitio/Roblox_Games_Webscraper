@@ -1,0 +1,7 @@
+proxies.txt
+publickey.txt
+test.py
+downloadS3.sh
+uploadS3.sh
+/__pycache__
+/docker

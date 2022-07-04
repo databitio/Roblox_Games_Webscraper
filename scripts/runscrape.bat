@@ -1,8 +1,4 @@
-@REM bash downloadS3.sh
-python connectionTest.py 1
-python robloxscraper.py 0
-python robloxscraper.py 1
-python robloxscraper.py 2
-@REM bash uploadS3.sh
-@REM read -p Adding data: %date% %time% desc  
+python main.py "Popular"
+python main.py "Most Engaging"
+python main.py "Up-And-Coming"
 pause

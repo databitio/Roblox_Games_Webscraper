@@ -5,21 +5,9 @@
 > Data can be found on Kaggle: https://www.kaggle.com/datasets/databitio/roblox-games-data
 
 # How to use
-1. Download the files, then in the home folder create a 'proxies.txt' file and put at least 1 proxy of the form '255.255.255.0:8000' into it. Add as many proxies as necessary, one per line in the file.
+1. Download the files, then in the home folder create a 'proxies.txt' file and put at least 1 proxy of the form '255.255.255.0:8000' into it. Only 1 proxy is needed, however you may add as many proxies as you'd like, one per line in the file.
 
 2. Ensure you have Python3 and the requests-html library downloaded;
-To install pip:
-
-```
-curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
-```
-
-
-Navigate to file get-pip.py is in:
-
-```
-python get-pip.py
-```
 
 Then install requests-html:
 

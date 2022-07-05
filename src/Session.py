@@ -22,19 +22,16 @@ def create_proxy_url_list(proxy_file: str):
     return complete_proxy_list
 
 def get_valid_session(url: str):
-    file_path = '../myproxies.txt'
+    file_path = './proxies.txt'
     proxy_list = create_proxy_url_list(file_path)
     print(proxy_list)
 
-    htmlsession = HTMLSession()
+    session = HTMLSession()
     for proxy in proxy_list:
         try:
-            session = htmlsession.get(url, proxies=proxy)
-            session.html.render(sleep=1)
-            return session
-            
+            return session.get(url, proxies=proxy)
         except:
             continue
-
+        
     print("All proxies exhausted; none work!")
     return
